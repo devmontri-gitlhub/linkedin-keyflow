@@ -1,4 +1,4 @@
-const BASE_URL = 'http://localhost:5000';
+const BASE_URL = 'https://linkedin-keyflow.onrender.com';
 
 export const api = {
   signup: (data) => fetch(`${BASE_URL}/auth/signup`, {
